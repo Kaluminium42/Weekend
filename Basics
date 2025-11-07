@@ -1,0 +1,27 @@
+using System;
+
+namespace HelloApp
+{
+    class Program
+    {
+        static int Main(string[] args)
+        {
+            Console.WriteLine("Hello, world!");
+
+            if (args.Length > 0)
+            {
+                Console.WriteLine("Arguments: " + string.Join(", ", args));
+            }
+
+            // Example: call a helper method
+            Console.WriteLine($"2 + 3 = {MathHelpers.Add(2, 3)}");
+
+            return 0;
+        }
+    }
+
+    static class MathHelpers
+    {
+        public static int Add(int a, int b) => a + b;
+    }
+}
