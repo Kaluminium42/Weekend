@@ -1,1 +1,18 @@
 
+    Smart Budgeting Dashboard with Bank CSV Import
+
+    What: Parse bank CSVs, categorize transactions, show trends and forecasts.
+    MVP: Upload CSV, auto-categorize via rules, monthly summary chart.
+    Tech: React + Chart.js, Node/Flask backend, optional ML classifier for categories.
+    Stretch: Automatic enrichment (merchant logos), envelope budgeting, mobile support.
+
+
+    Scientific calculator
+
+
+    Developer Productivity Toolkit (browser extension)
+
+    What: Extension that adds small time-savers to GitHub/VS Code Web (snippets, issue templates).
+    MVP: One keyboard shortcut to inject a template comment on GitHub PRs.
+    Tech: Browser extension (Manifest V3), JS, optional small backend.
+    Stretch: Sync settings, marketplace for templates, auth with GitHub.
